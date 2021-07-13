@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.homeTitle {
+  font-family: "PocketMonk";
+  font-size: 60px;
+  color: yellow;
+  text-shadow: 2px 2px red;
+  background-color: #282c34;
+}
+
+.homeImage {
+  transition: transform 0.7s ease-in-out;
+}
+.homeImage:hover {
+  transform: rotate(360deg);
+}
+
+@font-face {
+  font-family: "PocketMonk";
+  src: local("Lato"), url(./fonts/PocketMonk-15ze.ttf) format("truetype");
+}
+
+button {
+  border-radius: 12px;
+  padding: 6px;
+  font-family: "Roboto", sans-serif;
+  /* font-size: 50px; */
+}
+
+.listAllStyling {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.paddingLabel {
+  color: white;
+}
+
+ul {
+  margin-top: 50px;
+  padding-left: 0px;
+}
+
+#picked_message {
+  font-size: 20px;
+}
+
+#toolbar_style {
+  background-color: #282c34;
+  /* background-color: #61dafb; */
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.table_title {
+  font-family: "PocketMonk";
+  font-size: 60px;
+  color: yellow;
+  text-shadow: 2px 2px red;
+  /* background-color: #61dafb; */
+  background-color: #282c34;
+}
+
+.lower_text_left,
+.lower_text_right {
+  /* margin-top: 100px;
+    color:yellow;
+    font-size: 30px; */
+  font-family: "PocketMonk";
+  font-size: 60px;
+  color: yellow;
+  text-shadow: 2px 2px red;
+  width: 585px;
+}
+
+.fighterLeftTag, .fighterRightTag{
+    width: 640;
+    align-content: center;
+}
+
+.area_under_table {
+  margin-top: 20px;
+}
+
+.imageFighter1 {
+  margin-left: 800px;
+  margin-right: 400px;
+}
+
+.cardsArea {
+  margin-top: 40px;
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+body {
+  margin: 0;
+  background-color: #282c34;
+}
+
+.fightersTags {
+  margin-top: 20px;
+  display:flex;
+  justify-content: space-evenly;
+  /* margin-left: 100px;*/
+  /* margin-right: 60px;  */
+}
+
+.tagFiller{
+  width: 0px;
+}
+
+.vs_text{
+  /* display: flex;
+  vertical-align: middle; */
+  font-family: "PocketMonk";
+  font-size: 60px;
+  color: yellow;
+  text-shadow: 2px 2px red;
+  padding-top: 80px;
+  margin-top: 40px;
+  width: 200px;
+}
+
+
+.poke {
+    display: block;
+    margin: 120px auto 0 auto;
+    width: 80px;
+    height: 80px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+    border: solid #37474f 2px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/261948/pokeball.png);
+    background-size: contain;
+  }
+  
+  .stage {
+    border-bottom: solid 3px #eaeaea;
+  }
+  
+  .bounce {
+    animation-name: bounce;
+    animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+  }
+  
+  @keyframes bounce {
+    0% {  transform: scale(1, 1) translateY(0); }
+    10% { transform: scale(1.1, 0.9) translateY(0); }
+    30% { transform: scale(0.9, 1.1) translateY(-100px); }
+    50% { transform: scale(1.05, 0.95) translateY(0); }
+    57% { transform: scale(1, 1) translateY(-7px); }
+    64% { transform: scale(1, 1) translateY(0); }
+    100% { transform: scale(1, 1) translateY(0); }
+  }
+
+
+  .confetti-wrap {
+    background: #4919db;
+    padding: 20px;
+  }
+  
+  .confetti-wrap h3 {
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1.5px;
+  }
+
+
+/**/
